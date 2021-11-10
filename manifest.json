@@ -2,9 +2,9 @@
 "name"              : "BirdCafecoco",
 "short_name"        : "coco",
 "description"       : "PWAのサンプル",
-"start_url"         : "/?pwa=1",
+"start_url"         : "./?utm_source=homescreen",
 "display"           : "standalone",
-"background_color"  : "#ff0000",
+"background_color"  : "#0088cc",
 "icons": [{
       "src"           : "./cocoicon192.png",
       "sizes"         : "192x192",

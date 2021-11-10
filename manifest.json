@@ -1,17 +1,17 @@
 {
-"name": "BirdCafecoco",
-"short_name": "coco",
-"description": "PWAのサンプル",
-"start_url": "./?utm_source=homescreen",
-"display": "standalone",
-"background_color": "#0088cc",
-"icons": [{
-      "src": "./cocoicon192.png",
-      "sizes": "192x192",
-      "type": "image/png"
+  "name"              : "BirdCafe coco",
+  "short_name"        : "coco",
+  "description"       : "PWAのサンプル",
+  "start_url"         : "./?pwa=1",
+  "display"           : "standalone",
+  "background_color"  : "#0088cc",
+  "icons": [{
+      "src"           : "./cocoicon192.png",
+      "sizes"         : "192x192",
+      "type"          : "image/png"
     }, {
-      "src": "./cocoicon256.png",
-      "sizes": "256x256",
-      "type": "image/png"
-  }],
+      "src"           : "./cocoicon256.png",
+      "sizes"         : "256x256",
+      "type"          : "image/png"
+  }]
 }

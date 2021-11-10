@@ -96,6 +96,12 @@ if('serviceWorker' in navigator){
                                    msg.innerHTML="Service Worker";
 	});
 }
+ 	 function update(){
+		 navigator.serviceWorker.getRegistration()
+  		.then(
+				registration => {registration.unregister();}
+			)
+	 }
 
 </body>
 </html>

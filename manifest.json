@@ -5,6 +5,7 @@
   "start_url"         : "./?pwa=1",
   "display"           : "standalone",
   "background_color"  : "#0088cc",
+  "theme_color" : "#0088cc",
   "icons": [{
       "src"           : "./cocoicon192.png",
       "sizes"         : "192x192",

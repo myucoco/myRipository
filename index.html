@@ -2,16 +2,10 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<link rel="manifest" href="./manifest.json">
+<link rel="manifest" href="/manifest.json">
 <title>Bird Cafe ここ</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
-
-if('serviceWorker' in navigator){
-	navigator.serviceWorker.register('/serviceworker.js').then(function(){
-		console.log("Service Worker is registered!!");
-	});
-}
 </head>
 <body>
 
@@ -95,6 +89,12 @@ if('serviceWorker' in navigator){
   <small>&copy; 2021 COCO.</small>
 </footer>
 <!--/フッター-->
+
+if('serviceWorker' in navigator){
+	navigator.serviceWorker.register('/serviceworker.js').then(function(){
+		console.log("Service Worker is registered!!");
+	});
+}
 
 </body>
 </html>

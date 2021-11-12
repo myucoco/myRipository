@@ -7,6 +7,9 @@ const urlsToCache = [
   './cocoicon192.png',
   './cocoicon256.png',
   './index.html',
+  './shop.html',
+  './contact.html',
+  './access.html',
 ];
 
 self.addEventListener('install', (event) => {

@@ -2,7 +2,7 @@
   "name"              : "BirdCafe coco",
   "short_name"        : "coco",
   "description"       : "PWAのサンプル",
-  "start_url"         : "./?pwa=1",
+  "start_url"         : "./",
   "display"           : "standalone",
   "background_color"  : "#0088cc",
   "theme_color"       : "#0088cc",
